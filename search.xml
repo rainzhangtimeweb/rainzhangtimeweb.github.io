@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo 相关命令</title>
+    <url>/2020/05/13/hello-world/</url>
+    <content><![CDATA[<p>官网: <a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p>
+<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>更多信息: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">新建文章</a></p>
+<h3 id="启动hexo服务"><a href="#启动hexo服务" class="headerlink" title="启动hexo服务"></a>启动hexo服务</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>更多信息: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">启动服务</a></p>
+<h3 id="创建静态文件"><a href="#创建静态文件" class="headerlink" title="创建静态文件"></a>创建静态文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>更多信息: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">生成静态文件</a></p>
+<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">发布</a></p>
+<h3 id="启动边预览边编辑"><a href="#启动边预览边编辑" class="headerlink" title="启动边预览边编辑"></a>启动边预览边编辑</h3><h4 id="Hexo-Admin"><a href="#Hexo-Admin" class="headerlink" title="Hexo Admin"></a>Hexo Admin</h4><p>cd 在Hexo网站目录下,安装Hexo Admin插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
+<h4 id="启动本地服务器并打开管理界面"><a href="#启动本地服务器并打开管理界面" class="headerlink" title="启动本地服务器并打开管理界面"></a>启动本地服务器并打开管理界面</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server -d</span><br><span class="line">$ open http://localhost:4000/admin</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术</category>
+        <category>hexo</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>技术服务生活</title>
+    <url>/2020/05/12/%E7%9C%9F%E5%A5%BD-hexo/</url>
+    <content><![CDATA[<hr>
+<h2 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h2><h2 id="记录常见技术问题"><a href="#记录常见技术问题" class="headerlink" title="记录常见技术问题"></a>记录常见技术问题</h2><p>主要是ios方面的问题，包括正向开发和逆向方面</p>
+<h2 id="记录生活随想"><a href="#记录生活随想" class="headerlink" title="记录生活随想"></a>记录生活随想</h2><p>生活中会遇到美好的事情，会有碎片的想法，记录下来，用时间的线去串起一颗颗珠子</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>老顽童</title>
+    <url>/2020/05/18/%E8%80%81%E9%A1%BD%E7%AB%A5/</url>
+    <content><![CDATA[<p>   老顽童的绝招是左右互搏术,对于互联网安全人员,比较重要的能力也是左右互搏,能攻击,也能防守。<br>  先从攻击开始,逆下常见类型的常见app,争取常见app参考10个。然后巩固保护的能力.就这样功放相互提高.<br>  另外老顽童有孩子般好奇的心,作为技术人员这点也是要学习的,要对新的,或者不懂的技术保持好奇心,能迅速学习新的知识.<br>  学习新知识的比较重要的途径是学以致用,要动手,亲自操作.</p>
+]]></content>
+      <categories>
+        <category>想法</category>
+      </categories>
+  </entry>
+</search>
