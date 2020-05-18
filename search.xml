@@ -18,7 +18,14 @@
 <p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">发布</a></p>
 <h3 id="启动边预览边编辑"><a href="#启动边预览边编辑" class="headerlink" title="启动边预览边编辑"></a>启动边预览边编辑</h3><h4 id="Hexo-Admin"><a href="#Hexo-Admin" class="headerlink" title="Hexo Admin"></a>Hexo Admin</h4><p>cd 在Hexo网站目录下,安装Hexo Admin插件</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
-<h4 id="启动本地服务器并打开管理界面"><a href="#启动本地服务器并打开管理界面" class="headerlink" title="启动本地服务器并打开管理界面"></a>启动本地服务器并打开管理界面</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server -d</span><br><span class="line">$ open http://localhost:4000/admin</span><br></pre></td></tr></table></figure>]]></content>
+<h4 id="启动本地服务器并打开管理界面"><a href="#启动本地服务器并打开管理界面" class="headerlink" title="启动本地服务器并打开管理界面"></a>启动本地服务器并打开管理界面</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server -d</span><br><span class="line">$ open http://localhost:4000/admin</span><br></pre></td></tr></table></figure>
+
+<h4 id="启动本地服务器并打开管理界面-1"><a href="#启动本地服务器并打开管理界面-1" class="headerlink" title="启动本地服务器并打开管理界面"></a>启动本地服务器并打开管理界面</h4><p>添加搜索插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>blog下的_config.yml文件，进行编辑</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">    path: search.xml</span><br><span class="line">    field: post</span><br><span class="line">    format: html</span><br><span class="line">    <span class="built_in">limit</span>: 10000</span><br></pre></td></tr></table></figure>
+<p>修改主题配置文件,/blog/themes/next下的_config.yml文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">    <span class="built_in">enable</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>技术</category>
         <category>hexo</category>
