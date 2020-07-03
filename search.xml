@@ -60,9 +60,18 @@
     <title>Markdown简单语法</title>
     <url>/2020/07/02/Markdown%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<ul>
-<li>标题:使用 #(一级标题),##(二级标题)…</li>
-<li>段落:使用两个空行</li>
-<li>换行:至少两个空行加一个回车</li>
+<li>标题: 使用 #(一级标题),##(二级标题)…</li>
+<li>段落: 使用两个空行</li>
+<li>换行: 至少两个空行加一个回车</li>
+<li>强调: 使用 <code>**  **</code>包住要强调的内容</li>
+<li>有序表: 以数字1. 开头,后面的数字可以随便写,注意数字后面紧跟的一定是英文的句号</li>
+<li>无序表: 以短杠开头加空格</li>
+<li>代码块: 使用6个空格效果如下<pre><code>这是代码块
+这是代码块
+这是代码块</code></pre></li>
+<li>代码: 使用键盘左上角的符号 <code>我是代码</code></li>
+<li>链接: 使用中括号包围生成链接的字,后面跟着小括号包着链接, <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></strong></li>
+<li>网址/邮箱: 使用加括号包围 如: <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></strong></li>
 </ul>
 ]]></content>
   </entry>
