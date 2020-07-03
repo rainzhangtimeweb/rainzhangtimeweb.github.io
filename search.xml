@@ -71,7 +71,7 @@
 这是代码块</code></pre></li>
 <li>代码: 使用键盘左上角的符号 <code>我是代码</code></li>
 <li>链接: 使用中括号包围生成链接的字,后面跟着小括号包着链接, <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></strong></li>
-<li>网址/邮箱: 使用加括号包围 如: <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></strong></li>
+<li>网址/邮箱: 使用尖括号包围 如: <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></strong></li>
 </ul>
 ]]></content>
   </entry>
