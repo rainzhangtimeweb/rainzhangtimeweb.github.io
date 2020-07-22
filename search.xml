@@ -75,4 +75,38 @@
 </ul>
 ]]></content>
   </entry>
+  <entry>
+    <title>DJango总体介绍</title>
+    <url>/2020/07/22/DJango%E6%80%BB%E4%BD%93%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<p>学习东西要首先了解总体框架,知道大概原理.</p>
+<h2 id="Django-总体认识"><a href="#Django-总体认识" class="headerlink" title="Django 总体认识"></a>Django 总体认识</h2><p>  Django 是Python Web 框架,可以像使用工具一样使用它创建网站。它提供丰富的集成好的功能，有丰富功插件，可以快速的定制自己的网站，直接使用wsig实现了网站的大部分功能。这篇文章通过创建简单网站来总体学习Django的知识。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul>
+<li>使用python3创建虚拟环境<br><code>:python3 -m venv venv</code>   </li>
+<li>进入到bin目录，输入命令source activate 命令，激活虚拟环境<br><code>:source activate</code></li>
+<li>使用pip命令安装<br><code>:pip install Django</code></li>
+</ul>
+<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><ul>
+<li><code>:django-admin startproject mysite</code></li>
+</ul>
+<p><img src="/images/pasted-0.png" alt="upload successful"></p>
+<pre><code>settings.py 是主配置文件,整个工程相关的配置在改文件中。
+urls.py 是路由文件
+wsgi.py 是网络通信接口
+manage.py 是管理主程序</code></pre><h2 id="创新app"><a href="#创新app" class="headerlink" title="创新app"></a>创新app</h2><p>  每个项目可以有多个app，一个app相当于一个独立的功能模块。所有的APP共享项目资源。<br>  <code>:python manage.py startapp cmdb</code></p>
+<p><img src="/images/pasted-1.png" alt="upload successful"></p>
+<h2 id="编写路由"><a href="#编写路由" class="headerlink" title="编写路由"></a>编写路由</h2><p>  路由都在urls文件里，它将浏览器输入的url映射到相应的业务处理逻辑。</p>
+<p><img src="/images/pasted-2.png" alt="upload successful"></p>
+<h2 id="编写业务处理逻辑"><a href="#编写业务处理逻辑" class="headerlink" title="编写业务处理逻辑"></a>编写业务处理逻辑</h2><p>  业务处理逻辑都在views.py文件里</p>
+<p><img src="/images/pasted-3.png" alt="upload successful"><br>  通过上面两个步骤，我们将index这个url指向了views里的index（）函数，它接收用户请求，并返回一个“hello world”字符串。</p>
+<h2 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h2><p>  <code>:python manage.py runserver 127.0.0.1:8000</code><br>  在浏览器中输入 <a href="http://localhost:8000/index/" target="_blank" rel="noopener">http://localhost:8000/index/</a></p>
+<p><img src="/images/pasted-4.png" alt="upload successful"><br>可以看到服务器返回数据给浏览器了,至此，一个最简单的django编写的web服务就启动成功了。</p>
+<h2 id="返回HTML文件"><a href="#返回HTML文件" class="headerlink" title="返回HTML文件"></a>返回HTML文件</h2><p>  需要返回html文件给浏览器。在工程目录中创建templates文件夹，里面创建index.html文件，文件内容如下图:</p>
+<p><img src="/images/pasted-5.png" alt="upload successful"></p>
+<h2 id="修改views文件"><a href="#修改views文件" class="headerlink" title="修改views文件"></a>修改views文件</h2><p><img src="/images/pasted-6.png" alt="upload successful"></p>
+<h2 id="在项目配置文件设置模板文件路径"><a href="#在项目配置文件设置模板文件路径" class="headerlink" title="在项目配置文件设置模板文件路径"></a>在项目配置文件设置模板文件路径</h2><p><img src="/images/pasted-7.png" alt="upload successful"><br>  接下来，我们可以重新启动web服务。在浏览器刷新一下，会看到带有样式的“hello world”。</p>
+<h2 id="html使用静态文件"><a href="#html使用静态文件" class="headerlink" title="html使用静态文件"></a>html使用静态文件</h2><p>  在django中，一般将静态文件放在static目录中。</p>
+<p><img src="/images/pasted-8.png" alt="upload successful"></p>
+<p><img src="/images/pasted-9.png" alt="upload successful"><br>其中jquery.js到官网下载。</p>
+]]></content>
+  </entry>
 </search>

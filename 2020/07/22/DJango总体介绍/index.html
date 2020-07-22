@@ -20,19 +20,30 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="综述记录常见技术问题主要是ios方面的问题，包括正向开发和逆向方面 记录生活随想生活中会遇到美好的事情，会有碎片的想法，记录下来，用时间的线去串起一颗颗珠子">
+  <meta name="description" content="学习东西要首先了解总体框架,知道大概原理. Django 总体认识  Django 是Python Web 框架,可以像使用工具一样使用它创建网站。它提供丰富的集成好的功能，有丰富功插件，可以快速的定制自己的网站，直接使用wsig实现了网站的大部分功能。这篇文章通过创建简单网站来总体学习Django的知识。 安装 使用python3创建虚拟环境:python3 -m venv venv    进入">
 <meta property="og:type" content="article">
-<meta property="og:title" content="技术服务生活">
-<meta property="og:url" content="http://yoursite.com/2020/05/12/%E7%9C%9F%E5%A5%BD-hexo/index.html">
+<meta property="og:title" content="DJango总体介绍">
+<meta property="og:url" content="http://yoursite.com/2020/07/22/DJango%E6%80%BB%E4%BD%93%E4%BB%8B%E7%BB%8D/index.html">
 <meta property="og:site_name" content="Rain&#39;s Blog">
-<meta property="og:description" content="综述记录常见技术问题主要是ios方面的问题，包括正向开发和逆向方面 记录生活随想生活中会遇到美好的事情，会有碎片的想法，记录下来，用时间的线去串起一颗颗珠子">
+<meta property="og:description" content="学习东西要首先了解总体框架,知道大概原理. Django 总体认识  Django 是Python Web 框架,可以像使用工具一样使用它创建网站。它提供丰富的集成好的功能，有丰富功插件，可以快速的定制自己的网站，直接使用wsig实现了网站的大部分功能。这篇文章通过创建简单网站来总体学习Django的知识。 安装 使用python3创建虚拟环境:python3 -m venv venv    进入">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-05-11T16:34:00.000Z">
-<meta property="article:modified_time" content="2020-05-18T14:37:10.479Z">
+<meta property="og:image" content="http://yoursite.com/images/pasted-0.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-1.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-2.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-3.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-4.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-5.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-6.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-7.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-8.png">
+<meta property="og:image" content="http://yoursite.com/images/pasted-9.png">
+<meta property="article:published_time" content="2020-07-22T12:58:00.000Z">
+<meta property="article:modified_time" content="2020-07-22T15:21:27.141Z">
 <meta property="article:author" content="Rain">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/images/pasted-0.png">
 
-<link rel="canonical" href="http://yoursite.com/2020/05/12/%E7%9C%9F%E5%A5%BD-hexo/">
+<link rel="canonical" href="http://yoursite.com/2020/07/22/DJango%E6%80%BB%E4%BD%93%E4%BB%8B%E7%BB%8D/">
 
 
 <script id="page-configurations">
@@ -45,7 +56,7 @@
   };
 </script>
 
-  <title>技术服务生活 | Rain's Blog</title>
+  <title>DJango总体介绍 | Rain's Blog</title>
   
 
 
@@ -189,7 +200,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/12/%E7%9C%9F%E5%A5%BD-hexo/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/22/DJango%E6%80%BB%E4%BD%93%E4%BB%8B%E7%BB%8D/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -202,7 +213,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          技术服务生活
+          DJango总体介绍
         </h1>
 
         <div class="post-meta">
@@ -211,24 +222,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-05-12 00:34:00" itemprop="dateCreated datePublished" datetime="2020-05-12T00:34:00+08:00">2020-05-12</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-18 22:37:10" itemprop="dateModified" datetime="2020-05-18T22:37:10+08:00">2020-05-18</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%94%9F%E6%B4%BB/" itemprop="url" rel="index"><span itemprop="name">生活</span></a>
-                </span>
+              <time title="创建时间：2020-07-22 20:58:00 / 修改时间：23:21:27" itemprop="dateCreated datePublished" datetime="2020-07-22T20:58:00+08:00">2020-07-22</time>
             </span>
 
           
@@ -249,9 +245,35 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <hr>
-<h2 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h2><h2 id="记录常见技术问题"><a href="#记录常见技术问题" class="headerlink" title="记录常见技术问题"></a>记录常见技术问题</h2><p>主要是ios方面的问题，包括正向开发和逆向方面</p>
-<h2 id="记录生活随想"><a href="#记录生活随想" class="headerlink" title="记录生活随想"></a>记录生活随想</h2><p>生活中会遇到美好的事情，会有碎片的想法，记录下来，用时间的线去串起一颗颗珠子</p>
+        <p>学习东西要首先了解总体框架,知道大概原理.</p>
+<h2 id="Django-总体认识"><a href="#Django-总体认识" class="headerlink" title="Django 总体认识"></a>Django 总体认识</h2><p>  Django 是Python Web 框架,可以像使用工具一样使用它创建网站。它提供丰富的集成好的功能，有丰富功插件，可以快速的定制自己的网站，直接使用wsig实现了网站的大部分功能。这篇文章通过创建简单网站来总体学习Django的知识。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul>
+<li>使用python3创建虚拟环境<br><code>:python3 -m venv venv</code>   </li>
+<li>进入到bin目录，输入命令source activate 命令，激活虚拟环境<br><code>:source activate</code></li>
+<li>使用pip命令安装<br><code>:pip install Django</code></li>
+</ul>
+<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><ul>
+<li><code>:django-admin startproject mysite</code></li>
+</ul>
+<p><img src="/images/pasted-0.png" alt="upload successful"></p>
+<pre><code>settings.py 是主配置文件,整个工程相关的配置在改文件中。
+urls.py 是路由文件
+wsgi.py 是网络通信接口
+manage.py 是管理主程序</code></pre><h2 id="创新app"><a href="#创新app" class="headerlink" title="创新app"></a>创新app</h2><p>  每个项目可以有多个app，一个app相当于一个独立的功能模块。所有的APP共享项目资源。<br>  <code>:python manage.py startapp cmdb</code></p>
+<p><img src="/images/pasted-1.png" alt="upload successful"></p>
+<h2 id="编写路由"><a href="#编写路由" class="headerlink" title="编写路由"></a>编写路由</h2><p>  路由都在urls文件里，它将浏览器输入的url映射到相应的业务处理逻辑。</p>
+<p><img src="/images/pasted-2.png" alt="upload successful"></p>
+<h2 id="编写业务处理逻辑"><a href="#编写业务处理逻辑" class="headerlink" title="编写业务处理逻辑"></a>编写业务处理逻辑</h2><p>  业务处理逻辑都在views.py文件里</p>
+<p><img src="/images/pasted-3.png" alt="upload successful"><br>  通过上面两个步骤，我们将index这个url指向了views里的index（）函数，它接收用户请求，并返回一个“hello world”字符串。</p>
+<h2 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h2><p>  <code>:python manage.py runserver 127.0.0.1:8000</code><br>  在浏览器中输入 <a href="http://localhost:8000/index/" target="_blank" rel="noopener">http://localhost:8000/index/</a></p>
+<p><img src="/images/pasted-4.png" alt="upload successful"><br>可以看到服务器返回数据给浏览器了,至此，一个最简单的django编写的web服务就启动成功了。</p>
+<h2 id="返回HTML文件"><a href="#返回HTML文件" class="headerlink" title="返回HTML文件"></a>返回HTML文件</h2><p>  需要返回html文件给浏览器。在工程目录中创建templates文件夹，里面创建index.html文件，文件内容如下图:</p>
+<p><img src="/images/pasted-5.png" alt="upload successful"></p>
+<h2 id="修改views文件"><a href="#修改views文件" class="headerlink" title="修改views文件"></a>修改views文件</h2><p><img src="/images/pasted-6.png" alt="upload successful"></p>
+<h2 id="在项目配置文件设置模板文件路径"><a href="#在项目配置文件设置模板文件路径" class="headerlink" title="在项目配置文件设置模板文件路径"></a>在项目配置文件设置模板文件路径</h2><p><img src="/images/pasted-7.png" alt="upload successful"><br>  接下来，我们可以重新启动web服务。在浏览器刷新一下，会看到带有样式的“hello world”。</p>
+<h2 id="html使用静态文件"><a href="#html使用静态文件" class="headerlink" title="html使用静态文件"></a>html使用静态文件</h2><p>  在django中，一般将静态文件放在static目录中。</p>
+<p><img src="/images/pasted-8.png" alt="upload successful"></p>
+<p><img src="/images/pasted-9.png" alt="upload successful"><br>其中jquery.js到官网下载。</p>
 
     </div>
 
@@ -266,11 +288,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2020/05/13/hello-world/" rel="next" title="Hexo 相关命令">
-      Hexo 相关命令 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/07/02/Markdown%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95/" rel="prev" title="Markdown简单语法">
+      <i class="fa fa-chevron-left"></i> Markdown简单语法
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -329,7 +351,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#综述"><span class="nav-number">1.</span> <span class="nav-text">综述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#记录常见技术问题"><span class="nav-number">2.</span> <span class="nav-text">记录常见技术问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#记录生活随想"><span class="nav-number">3.</span> <span class="nav-text">记录生活随想</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Django-总体认识"><span class="nav-number">1.</span> <span class="nav-text">Django 总体认识</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建项目"><span class="nav-number">3.</span> <span class="nav-text">创建项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创新app"><span class="nav-number">4.</span> <span class="nav-text">创新app</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编写路由"><span class="nav-number">5.</span> <span class="nav-text">编写路由</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编写业务处理逻辑"><span class="nav-number">6.</span> <span class="nav-text">编写业务处理逻辑</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#运行服务"><span class="nav-number">7.</span> <span class="nav-text">运行服务</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#返回HTML文件"><span class="nav-number">8.</span> <span class="nav-text">返回HTML文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改views文件"><span class="nav-number">9.</span> <span class="nav-text">修改views文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在项目配置文件设置模板文件路径"><span class="nav-number">10.</span> <span class="nav-text">在项目配置文件设置模板文件路径</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#html使用静态文件"><span class="nav-number">11.</span> <span class="nav-text">html使用静态文件</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
