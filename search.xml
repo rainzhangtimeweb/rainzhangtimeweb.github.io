@@ -1,81 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo 相关命令</title>
-    <url>/2020/05/13/hello-world/</url>
-    <content><![CDATA[<p>官网: <a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p>
-<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>更多信息: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">新建文章</a></p>
-<h3 id="启动hexo服务"><a href="#启动hexo服务" class="headerlink" title="启动hexo服务"></a>启动hexo服务</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>更多信息: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">启动服务</a></p>
-<h3 id="创建静态文件"><a href="#创建静态文件" class="headerlink" title="创建静态文件"></a>创建静态文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>更多信息: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">生成静态文件</a></p>
-<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">发布</a></p>
-<h3 id="启动边预览边编辑"><a href="#启动边预览边编辑" class="headerlink" title="启动边预览边编辑"></a>启动边预览边编辑</h3><h4 id="Hexo-Admin"><a href="#Hexo-Admin" class="headerlink" title="Hexo Admin"></a>Hexo Admin</h4><p>cd 在Hexo网站目录下,安装Hexo Admin插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
-<h4 id="启动本地服务器并打开管理界面"><a href="#启动本地服务器并打开管理界面" class="headerlink" title="启动本地服务器并打开管理界面"></a>启动本地服务器并打开管理界面</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server -d</span><br><span class="line">$ open http://localhost:4000/admin</span><br></pre></td></tr></table></figure>
-
-<h4 id="启动本地服务器并打开管理界面-1"><a href="#启动本地服务器并打开管理界面-1" class="headerlink" title="启动本地服务器并打开管理界面"></a>启动本地服务器并打开管理界面</h4><p>添加搜索插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-<p>blog下的_config.yml文件，进行编辑</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">    path: search.xml</span><br><span class="line">    field: post</span><br><span class="line">    format: html</span><br><span class="line">    <span class="built_in">limit</span>: 10000</span><br></pre></td></tr></table></figure>
-<p>修改主题配置文件,/blog/themes/next下的_config.yml文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">    <span class="built_in">enable</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术</category>
-        <category>hexo</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>技术服务生活</title>
-    <url>/2020/05/12/%E7%9C%9F%E5%A5%BD-hexo/</url>
-    <content><![CDATA[<hr>
-<h2 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h2><h2 id="记录常见技术问题"><a href="#记录常见技术问题" class="headerlink" title="记录常见技术问题"></a>记录常见技术问题</h2><p>主要是ios方面的问题，包括正向开发和逆向方面</p>
-<h2 id="记录生活随想"><a href="#记录生活随想" class="headerlink" title="记录生活随想"></a>记录生活随想</h2><p>生活中会遇到美好的事情，会有碎片的想法，记录下来，用时间的线去串起一颗颗珠子</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>老顽童</title>
-    <url>/2020/05/18/%E8%80%81%E9%A1%BD%E7%AB%A5/</url>
-    <content><![CDATA[<p>   老顽童的绝招是左右互搏术,对于互联网安全人员,比较重要的能力也是左右互搏,能攻击,也能防守。<br>  先从攻击开始,逆下常见类型的常见app,争取常见app参考10个。然后巩固保护的能力.就这样功放相互提高.<br>  另外老顽童有孩子般好奇的心,作为技术人员这点也是要学习的,要对新的,或者不懂的技术保持好奇心,能迅速学习新的知识.<br>  学习新知识的比较重要的途径是学以致用,要动手,亲自操作.</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>今天事情的总结</title>
-    <url>/2020/07/02/%E4%BB%8A%E5%A4%A9%E4%BA%8B%E6%83%85%E7%9A%84%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<h1 id="今日自省"><a href="#今日自省" class="headerlink" title="今日自省"></a>今日自省</h1><p>  过年时和越老表聊天,他给我说的自己多年的人生经验，就是晚上的时候会把一天的事情过一遍，总结下好的或者不好的，激励自己，或警惕自己。能几十年坚持这么做，他的外人看的成就是应该的。</p>
-<p>  今天下午在看qt 方面的东西. cmake 中使用资源文件一直不起作用。网上搜了不少，发现很多是针对老版本的，等我看了cmakelist.txt 文件时，发现资源配置文件么加入项目，手动加入进去就好了。</p>
-<p>  总感觉下午效率低，现在想来主要原因是老看一些不相关的新闻，公众号，或者是微信聊天，自己安排的事总被打断，所以效率低。后面要改善这方面的问题。时间那么珍贵，不能虚度啊。不管在哪种环境，都要然时间过的有价值，流失的时间换来提高自己。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Markdown简单语法</title>
-    <url>/2020/07/02/Markdown%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<ul>
-<li>标题: 使用 #(一级标题),##(二级标题)…</li>
-<li>段落: 使用两个空行</li>
-<li>换行: 至少两个空行加一个回车</li>
-<li>强调: 使用 <code>**  **</code>包住要强调的内容</li>
-<li>有序表: 以数字1. 开头,后面的数字可以随便写,注意数字后面紧跟的一定是英文的句号</li>
-<li>无序表: 以短杠开头加空格</li>
-<li>代码块: 使用6个空格效果如下<pre><code>这是代码块
-这是代码块
-这是代码块</code></pre></li>
-<li>代码: 使用键盘左上角的符号 <code>我是代码</code></li>
-<li>链接: 使用中括号包围生成链接的字,后面跟着小括号包着链接, <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></strong></li>
-<li>网址/邮箱: 使用尖括号包围 如: <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></strong></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>DJango总体介绍</title>
     <url>/2020/07/22/DJango%E6%80%BB%E4%BD%93%E4%BB%8B%E7%BB%8D/</url>
     <content><![CDATA[<p>学习东西要首先了解总体框架,知道大概原理.</p>
@@ -107,6 +32,81 @@ manage.py 是管理主程序</code></pre><h2 id="创新app"><a href="#创新app"
 <h2 id="html使用静态文件"><a href="#html使用静态文件" class="headerlink" title="html使用静态文件"></a>html使用静态文件</h2><p>  在django中，一般将静态文件放在static目录中。</p>
 <p><img src="/images/pasted-8.png" alt="upload successful"></p>
 <p><img src="/images/pasted-9.png" alt="upload successful"><br>其中jquery.js到官网下载。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Markdown简单语法</title>
+    <url>/2020/07/02/Markdown%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<ul>
+<li>标题: 使用 #(一级标题),##(二级标题)…</li>
+<li>段落: 使用两个空行</li>
+<li>换行: 至少两个空行加一个回车</li>
+<li>强调: 使用 <code>**  **</code>包住要强调的内容</li>
+<li>有序表: 以数字1. 开头,后面的数字可以随便写,注意数字后面紧跟的一定是英文的句号</li>
+<li>无序表: 以短杠开头加空格</li>
+<li>代码块: 使用6个空格效果如下<pre><code>这是代码块
+这是代码块
+这是代码块</code></pre></li>
+<li>代码: 使用键盘左上角的符号 <code>我是代码</code></li>
+<li>链接: 使用中括号包围生成链接的字,后面跟着小括号包着链接, <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></strong></li>
+<li>网址/邮箱: 使用尖括号包围 如: <strong><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></strong></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo 相关命令</title>
+    <url>/2020/05/13/hello-world/</url>
+    <content><![CDATA[<p>官网: <a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p>
+<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>更多信息: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">新建文章</a></p>
+<h3 id="启动hexo服务"><a href="#启动hexo服务" class="headerlink" title="启动hexo服务"></a>启动hexo服务</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>更多信息: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">启动服务</a></p>
+<h3 id="创建静态文件"><a href="#创建静态文件" class="headerlink" title="创建静态文件"></a>创建静态文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>更多信息: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">生成静态文件</a></p>
+<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">发布</a></p>
+<h3 id="启动边预览边编辑"><a href="#启动边预览边编辑" class="headerlink" title="启动边预览边编辑"></a>启动边预览边编辑</h3><h4 id="Hexo-Admin"><a href="#Hexo-Admin" class="headerlink" title="Hexo Admin"></a>Hexo Admin</h4><p>cd 在Hexo网站目录下,安装Hexo Admin插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
+<h4 id="启动本地服务器并打开管理界面"><a href="#启动本地服务器并打开管理界面" class="headerlink" title="启动本地服务器并打开管理界面"></a>启动本地服务器并打开管理界面</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server -d</span><br><span class="line">$ open http://localhost:4000/admin</span><br></pre></td></tr></table></figure>
+
+<h4 id="启动本地服务器并打开管理界面-1"><a href="#启动本地服务器并打开管理界面-1" class="headerlink" title="启动本地服务器并打开管理界面"></a>启动本地服务器并打开管理界面</h4><p>添加搜索插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>blog下的_config.yml文件，进行编辑</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">    path: search.xml</span><br><span class="line">    field: post</span><br><span class="line">    format: html</span><br><span class="line">    <span class="built_in">limit</span>: 10000</span><br></pre></td></tr></table></figure>
+<p>修改主题配置文件,/blog/themes/next下的_config.yml文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">    <span class="built_in">enable</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术</category>
+        <category>hexo</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>今天事情的总结</title>
+    <url>/2020/07/02/%E4%BB%8A%E5%A4%A9%E4%BA%8B%E6%83%85%E7%9A%84%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<h1 id="今日自省"><a href="#今日自省" class="headerlink" title="今日自省"></a>今日自省</h1><p>  过年时和越老表聊天,他给我说的自己多年的人生经验，就是晚上的时候会把一天的事情过一遍，总结下好的或者不好的，激励自己，或警惕自己。能几十年坚持这么做，他的外人看的成就是应该的。</p>
+<p>  今天下午在看qt 方面的东西. cmake 中使用资源文件一直不起作用。网上搜了不少，发现很多是针对老版本的，等我看了cmakelist.txt 文件时，发现资源配置文件么加入项目，手动加入进去就好了。</p>
+<p>  总感觉下午效率低，现在想来主要原因是老看一些不相关的新闻，公众号，或者是微信聊天，自己安排的事总被打断，所以效率低。后面要改善这方面的问题。时间那么珍贵，不能虚度啊。不管在哪种环境，都要然时间过的有价值，流失的时间换来提高自己。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>技术服务生活</title>
+    <url>/2020/05/12/%E7%9C%9F%E5%A5%BD-hexo/</url>
+    <content><![CDATA[<hr>
+<h2 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h2><h2 id="记录常见技术问题"><a href="#记录常见技术问题" class="headerlink" title="记录常见技术问题"></a>记录常见技术问题</h2><p>主要是ios方面的问题，包括正向开发和逆向方面</p>
+<h2 id="记录生活随想"><a href="#记录生活随想" class="headerlink" title="记录生活随想"></a>记录生活随想</h2><p>生活中会遇到美好的事情，会有碎片的想法，记录下来，用时间的线去串起一颗颗珠子</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>老顽童</title>
+    <url>/2020/05/18/%E8%80%81%E9%A1%BD%E7%AB%A5/</url>
+    <content><![CDATA[<p>   老顽童的绝招是左右互搏术,对于互联网安全人员,比较重要的能力也是左右互搏,能攻击,也能防守。<br>  先从攻击开始,逆下常见类型的常见app,争取常见app参考10个。然后巩固保护的能力.就这样功放相互提高.<br>  另外老顽童有孩子般好奇的心,作为技术人员这点也是要学习的,要对新的,或者不懂的技术保持好奇心,能迅速学习新的知识.<br>  学习新知识的比较重要的途径是学以致用,要动手,亲自操作.</p>
 ]]></content>
   </entry>
 </search>
